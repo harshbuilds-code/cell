@@ -69,7 +69,7 @@ void shell_loop(void)
     int status;
     do
     {
-        printf(BOLD_CYAN "cell" RESET ":" BOLD_BLUE "%s" BOLD_GREEN " ❯ " RESET, getcwd(p, 100));
+        printf(BOLD_CYAN "cell" RESET ":" BOLD_BLUE "%s" BOLD_GREEN " > " RESET, getcwd(p, 100));
         line = read_line();
         tokens = split_line(line);
         status = execute(tokens);
