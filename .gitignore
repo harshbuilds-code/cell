@@ -1,0 +1,23 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+/cell
+/build/
+/dist/
+
+# Debugging and crash dumps
+core
+core.*
+*.core
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
